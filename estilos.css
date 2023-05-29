@@ -120,6 +120,10 @@ video{
     
 }
 
+.greeting{
+    text-align: center;
+}
+
 
 
 @media (max-width:500px){
