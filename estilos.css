@@ -122,6 +122,11 @@ video{
 
 .greeting{
     text-align: center;
+    size: 125px;
+    color: yellow;
+    border-width: 10px;
+    border-color: cyan;
+    border-style: solid;
 }
 
 
