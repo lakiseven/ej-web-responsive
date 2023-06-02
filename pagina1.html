@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <title>Document</title>
+    
 </head>
 <body>
     <link rel= stylesheet href=estilos.css>
+
     <h1 class="box">Medicos</h1>
+
+    <flexbox class="img-slider">
+        
+            <img src=".\medico2.jpg" id="mainImage" alt="">
+        
+        <button id="previousbtn" onclick="previousImage()" style="left:0" class="button-slider">&lt;</button>
+        <button id="nextbtn" onclick="nextImage()" style="right:0" class="button-slider">&gt;</button>
+    </flexbox>
+
+    <br>
+    <button id="ocultar" onclick="ocultar()">Ocultar</button>
+    <button id="mostrar" onclick="mostrar()">Mostrar</button>
+
+    
+    
+    
 </body>
 </html>

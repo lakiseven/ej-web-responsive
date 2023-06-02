@@ -62,7 +62,7 @@ button{
     font-weight: bold;
     font-size: 22px;
     margin: 20px 20px 20px 20px;
-    color:darkmagenta
+    
 }
 
 button:hover{
@@ -107,9 +107,45 @@ flexbox.div{
 }
 
 img{
-    max-width: 300px;
-    max-height: 200px;
+    max-width: 99%;
+    max-height: 99%;
 }
+
+.img-slider{
+    display:flex;
+    justify-content: center;
+    padding:30px;
+    background-color: black;
+    height: 600px;    
+    position:relative;
+    border-style: solid;
+    border-color: yellow;    
+}
+
+.button-slider{
+    position:absolute;
+    border:none;    
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;    
+    color:#df24b0;
+    background-color: rgb(116, 46, 247);
+    height: 82%;
+    width: 5%;
+}
+
+.button-slider:hover{
+    background-color: rgba(15, 233, 113, 0.877);
+}
+
+#previousbtn{
+    margin-right: 75px;;
+}
+#nextbtn{
+    margin-left: 75px;
+}
+
+
 
 video{
     max-width: 700px;
@@ -127,6 +163,7 @@ video{
     border-width: 10px;
     border-color: cyan;
     border-style: solid;
+    
 }
 
 
@@ -243,3 +280,193 @@ video{
     }
     
 }   
+
+
+.container-paises{
+    display:flex;
+    flex-direction:row;    
+    list-style: none;    
+}
+
+.contenedor-lista{
+    margin:30px 30px 30px 30px;    
+}
+
+ul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkblue;
+
+}
+
+footer {
+    background-color: lime;
+  }
+  
+  footer * {
+    color: orange;
+    font-size: 15px;
+  }
+  
+  button {
+    /* Estilos específicos para el botón */
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer * {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  footer .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  footer .social-icons {
+    margin-top: 20px;
+  }
+  
+  footer .social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  footer .social-icons a:hover {
+    background-color: #777;
+  }
+  
+  footer .social-icons .icon-facebook {
+    background-color: #3b5998;
+  }
+  
+  footer .social-icons .icon-twitter {
+    background-color: #55acee;
+  }
+  
+  footer .social-icons .icon-instagram {
+    background-color: #e4405f;
+  }
+  
+  footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+
+ 
+
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .navbar button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar button:hover {
+    background-color: orange;
+  }
+
+
+  .input-box {
+    position: relative;
+    display: inline-block;
+}
+
+.input-box input {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    transition: border-bottom-color 0.3s ease;
+    width: 200px;
+}
+
+.input-box input:focus {
+    border-bottom-color: #ff00ff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+    pointer-events: none;
+    transition: top 0.3s ease, font-size 0.3s ease;
+}
+
+.input-box input:focus ~ label,
+.input-box input:not(:placeholder-shown) ~ label {
+    top: -20px;
+    font-size: 12px;
+    color: #ff00ff;
+}
+
+
+.servicios {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.servicio {
+    text-align: center;
+    margin: 20px;
+   width: 30%;
+   display: inline-block;
+   
+}
+
+.contenedor-servicios{
+    display:flex;
+    flex-direction: column;
+    margin-left: 35%
+    
+}
+
+.servicio img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.servicio h3 {
+    margin-top: 10px;
+}
+
+.servicio p {
+    color: #888;
+    font-size: 14px;
+}
