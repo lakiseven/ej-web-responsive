@@ -91,6 +91,7 @@ flexbox.div{
     margin:50px;
     padding:20px;
     background-color: whitesmoke;
+    max-height: 150px;
 }
 
 .container-vertical{
